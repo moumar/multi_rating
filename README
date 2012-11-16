@@ -1,0 +1,22 @@
+pour modifier les categories, ajouter une correspondance dans la variable $MMR_RATING_CATEGORIES.
+Pour la première valeur, il ne faut utiliser que les caractères a à z, 0 à 9, _ ou -. Cette première
+valeur ne doit jamais changer une fois qu'elle a été fixée.
+
+La deuxième valeur est libre.
+L'ordre peut être changé.
+
+pour afficher tous les critères sur la page d'un article: 
+<?php mmr_show() ?>
+
+pour afficher un critère particulier sur la page d'un article: 
+<?php mmr_show("hebergement") ?>
+
+
+pour afficher les top 10 les meilleurs articles dans toutes les categories:
+<?php mmr_top(10) ?>
+
+pour afficher le top 10 des meilleurs articles tous critères confondus:
+<?php mmr_top_overall(10) ?>
+
+pour effacer toutes les notes dans tous les articles:
+<?php mmr_clear_all() ?>

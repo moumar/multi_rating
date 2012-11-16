@@ -1,0 +1,8 @@
+.mmr-rating.editable > img {
+  cursor: pointer;
+}
+
+.mmr-rating .title {
+  float :left;
+  width: 14em;
+}
